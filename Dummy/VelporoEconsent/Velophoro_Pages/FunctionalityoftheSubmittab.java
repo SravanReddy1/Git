@@ -16,7 +16,7 @@ public class FunctionalityoftheSubmittab extends Utilities
 {
 	
 	
-	static String VStartLOC = "//a[text()='Click here to start a benefit investigation']";
+	static String VStartLOC = "//a[text()='Click here to start a benefit investigation']";;
 	static String PatientHeader= "//div[@id='content']/div/legend";
 	static String Patienttab="//a[text()='Patient']";
 	static String PatientFirstName = "//input[@id='ctl00_mainContent_txtPatientFirstName']";
