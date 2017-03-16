@@ -23,7 +23,7 @@ public class utilities
 {
 	static WebDriver driver;
 	
-	public static void waitPageLoad()
+	public static  void waitPageLoad()
 	{
 		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 		(new WebDriverWait(driver, 60)).until(new ExpectedCondition<Boolean>() {
